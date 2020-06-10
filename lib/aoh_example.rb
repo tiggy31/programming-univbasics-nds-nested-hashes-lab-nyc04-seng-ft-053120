@@ -14,11 +14,12 @@ def assembled_aoh
        {:NAME=>"Kate Gompert", :OCCUPATION=>"None"},
        {:NAME=>"Bruce Green", :OCCUPATION=>"Fan of Mildred"}]
        
-       result = [NAME, OCCUPATION]
+       
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
 
+result = [NAME, OCCUPATION]
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
