@@ -8,7 +8,7 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
  result = [
-       {:NAME, :OCCUPATION}
+       :NAME, :OCCUPATION}
        ]
  
   # Build an array that contains (or, "nests") the constants into a single
