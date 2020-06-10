@@ -35,7 +35,7 @@ def literal_aoh
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"},
        ]
       #binding.pry
-  new << result.sort
+ result.sort_by { |name, occupation| age }
 end
 
 def aoh_lookup(aoh, row, key)
