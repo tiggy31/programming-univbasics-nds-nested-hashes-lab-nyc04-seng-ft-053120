@@ -32,7 +32,7 @@ def literal_aoh
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"},
        ]
-  result = result.sort
+  new = result.sort
 end
 
 def aoh_lookup(aoh, row, key)
