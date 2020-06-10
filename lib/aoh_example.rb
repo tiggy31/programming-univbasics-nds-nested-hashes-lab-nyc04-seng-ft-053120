@@ -18,7 +18,6 @@ def assembled_aoh
   # Array. Ruby constants are denoted by ALL_CAPS
 end
 
-result = [NAME, OCCUPATION]
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
