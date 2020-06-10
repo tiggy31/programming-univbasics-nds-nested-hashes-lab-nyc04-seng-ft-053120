@@ -17,11 +17,11 @@ def assembled_aoh
        
        #binding.pry
        puts "hello"
-       
+       result
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
-result
+
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
