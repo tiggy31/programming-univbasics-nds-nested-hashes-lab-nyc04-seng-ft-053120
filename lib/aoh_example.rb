@@ -32,6 +32,7 @@ def literal_aoh
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"},
        ]
+       binding.pry
   new = result.sort
 end
 
