@@ -25,7 +25,7 @@ end
 
 def literal_aoh
   
-  result = [NAME.sort,OCCUPATION.sort]
+  result = [:name.sort,:occupation.sort]
   
 end
 
