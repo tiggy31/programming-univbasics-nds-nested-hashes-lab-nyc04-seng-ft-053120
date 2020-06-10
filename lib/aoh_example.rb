@@ -17,7 +17,7 @@ def assembled_aoh
        binding.pry
        puts "hello"
        
-       
+       result = [NAME, OCCUPATION]
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
