@@ -15,7 +15,7 @@ def assembled_aoh
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"},
        ]
        
-       binding.pry
+       #binding.pry
        puts "hello"
        
   # Build an array that contains (or, "nests") the constants into a single
