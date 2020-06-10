@@ -8,14 +8,12 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
  
- result =[{NAME ="Don Gately","Joelle van Dyne","Pat Monteseian","Kate Gompert","Bruce Green"}, OCCUPATION ="Live-in Staff" ,"Radio Personality" ,"Staff","None""Fan of Mildred" }]
+ result =[{ NAME ="Don Gately","Joelle van Dyne","Pat Monteseian","Kate Gompert","Bruce Green"}, OCCUPATION ="Live-in Staff" ,"Radio Personality" ,"Staff","None""Fan of Mildred" }]
        
-       #result = [NAME, OCCUPATION]
+      result = [NAME, OCCUPATION]
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
-
- result = [NAME, OCCUPATION]
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
