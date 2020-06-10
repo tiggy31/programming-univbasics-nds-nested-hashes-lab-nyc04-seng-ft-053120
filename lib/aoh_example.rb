@@ -25,6 +25,8 @@ end
 
 def literal_aoh
   
+  result = [NAME.sort,OCCUPATION.sort]
+  
 end
 
 def aoh_lookup(aoh, row, key)
