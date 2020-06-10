@@ -22,7 +22,7 @@ def assembled_aoh
   # Array. Ruby constants are denoted by ALL_CAPS
 end
 
-result =[:name]
+#result =[:name]
 
 
 def literal_aoh
@@ -34,7 +34,7 @@ def literal_aoh
        {:name=>"Kate Gompert", :occupation=>"None"},
        {:name=>"Bruce Green", :occupation=>"Fan of Mildred"},
        ]
-       binding.pry
+      #binding.pry
   new << result.sort
 end
 
